@@ -3,8 +3,8 @@ require(RMySQL) || {install.packages("RMySQL"); require(RMySQL)}
 
 con<-dbConnect(RMySQL::MySQL(),
                host      = "titlon.uit.no",
-               user      = "a0910124@bi.no",
-               password  = "lsxl5SS2BewZMuSSjEIow",
+               user      = "YourUsername",
+               password  = "YourPassword",
                db        = "OSE")
 
 dbListTables(con)
