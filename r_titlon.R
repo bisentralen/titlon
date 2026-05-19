@@ -1,3 +1,7 @@
+# YOU NEED TO BE CONNECTED TO YOUR INSTITUTION VIA VPN, OR BE AT THE INSTITUTION, FOR THIS CODE TO WORK
+# Ctrl+c to copy
+
+
 # 1. Load or install necessary packages
 require(writexl) || {install.packages("writexl"); require(writexl)}
 require(RMySQL) || {install.packages("RMySQL"); require(RMySQL)}
@@ -47,7 +51,3 @@ write.csv(titlon_data, file = "5th_planet_2025.csv", row.names = FALSE)
 # Excel
 write_xlsx(titlon_data, path ="5th_planet_2025.xlsx")
 
-
-
-# YOU NEED TO BE CONNECTED TO YOUR INSTITUTION VIA VPN, OR BE AT THE INSTITUTION, FOR THIS CODE TO WORK
-# Ctrl+c to copy
